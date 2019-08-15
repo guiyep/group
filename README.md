@@ -1,0 +1,2 @@
+- npm install
+- npm run start (to run the example) / npm run test (to run tests)
