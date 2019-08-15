@@ -41,19 +41,3 @@ test('4 rows, 1 book in the last', () => {
     ['book1', 'book2', 'book3', 'book4'],
   ]);
 });
-
-// test('no more rows, stop optimizing', () => {
-//   const deoptimized = [
-//     ['book1', 'book2', 'book3', 'book4', 'book5'],
-//     ['book1', 'book2', 'book3', 'book4', 'book5'],
-//     ['book1', 'book2'],
-//     ['book1'],
-//   ];
-//   const result = optimizeDiscount(deoptimized);
-//   expect(result).toEqual([
-//     ['book1', 'book2', 'book4', 'book5'],
-//     ['book1', 'book2', 'book3', 'book5'],
-//     ['book1', 'book2', 'book3', 'book4'],
-//     ['book1'],
-//   ]);
-// });
